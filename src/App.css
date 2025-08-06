@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+
+/* Market Ticker Animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+.animate-scroll {
+  animation: scroll 60s linear infinite;
+}
+
+/* Alternative faster animation */
+.animate-scroll-fast {
+  animation: scroll 30s linear infinite; 
+}
