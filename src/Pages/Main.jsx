@@ -25,6 +25,7 @@ const Main = () => {
         <BonusDashbord />
 
       </div>
+      
     </>
   );
 };

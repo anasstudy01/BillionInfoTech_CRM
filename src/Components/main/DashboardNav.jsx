@@ -1,14 +1,14 @@
 import React from 'react'
 
-const DashboardNav = () => {
+const DashboardNav = ({ heading, location }) => {
   return (
-    <div className="bg-green-500 mx-5 shadow-lg rounded-t-3xl mt-2 py-6 text-white px-6 relative overflow-hidden ">
+    <div className="bg-green-500 mx-5 shadow-lg rounded-t-3xl mt-2 py-8 text-white px-6 relative overflow-hidden ">
         <div className="flex justify-between items-center relative z-10">
-          <h1 className="text-2xl font-bold">Dashboard</h1>
+          <h1 className="text-2xl font-bold">{heading}</h1>
           <nav className="text-sm">
             <span className="opacity-80">Home</span>
             <span className="mx-2">&gt;</span>
-            <span>Dashboard</span>
+            <span>{location}</span>
           </nav>
         </div>
       </div>

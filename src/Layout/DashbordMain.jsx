@@ -11,8 +11,7 @@ const DashbordMain = () => {
   return (
     <>
       {/* Header Section */}
-      <DashboardNav />
-
+      <DashboardNav heading="Dashboard" location="Dashboard" />
       {/* Market Ticker */}
       <MovingDisplay />
 
