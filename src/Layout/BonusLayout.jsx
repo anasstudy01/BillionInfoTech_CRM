@@ -16,21 +16,21 @@ const BonusLayout = () => {
           buttonText="Claim"
         />
         <BonusCard 
-          icon="🎁"
+          icon=" 💰"
           title="Welcome Bonus"
           description="Get 100% bonus on your first deposit."
           info="Min Deposit: $100"
           buttonText="Claim"
         />
         <BonusCard 
-          icon="🎁"
+          icon=" 🔄"
           title="Welcome Bonus"
           description="Get 100% bonus on your first deposit."
           info="Min Deposit: $100"
           buttonText="Claim"
         />
         <BonusCard 
-          icon="🎁"
+          icon="🎯"
           title="Welcome Bonus"
           description="Get 100% bonus on your first deposit."
           info="Min Deposit: $100"
