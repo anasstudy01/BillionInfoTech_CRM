@@ -7,9 +7,7 @@ const BonusLayout = () => {
   
   <DashboardNav />
   
-    
-        
-    <div className="bonus-container flex m-4 gap-4 flex-wrap">
+    <div className="bonus-container bg-gray-50 flex mx-auto px-4 py-4 gap-4 flex-wrap justify-center max-w-screen-xl">
         <BonusCard 
           icon="🎁"
           title="Welcome Bonus"
@@ -38,6 +36,35 @@ const BonusLayout = () => {
           info="Min Deposit: $100"
           buttonText="Claim"
         />
+        <BonusCard 
+          icon="🎁"
+          title="Welcome Bonus"
+          description="Get 100% bonus on your first deposit."
+          info="Min Deposit: $100"
+          buttonText="Claim"
+        />
+         <BonusCard 
+          icon="🎁"
+          title="Welcome Bonus"
+          description="Get 100% bonus on your first deposit."
+          info="Min Deposit: $100"
+          buttonText="Claim"
+        />
+         <BonusCard 
+          icon="🎁"
+          title="Welcome Bonus"
+          description="Get 100% bonus on your first deposit."
+          info="Min Deposit: $100"
+          buttonText="Claim"
+        />
+         <BonusCard 
+          icon="🎁"
+          title="Welcome Bonus"
+          description="Get 100% bonus on your first deposit."
+          info="Min Deposit: $100"
+          buttonText="Claim"
+        />
+
 
      </div>
     
