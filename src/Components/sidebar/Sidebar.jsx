@@ -13,13 +13,18 @@ const Sidebar = ({ isOpen = true}) => {
     <div className={`bg-white border-r border-gray-200 h-screen transition-all duration-300 ease-in-out ${
       isOpen ? 'w-64' : 'w-0 overflow-hidden'
     }`}>
+
+      {/* Sidebar Header */}
       <div className={`w-64 ${isOpen ? 'block' : 'hidden'}`}>
         <div className="p-4 border-b border-gray-100">
           <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider">HOME</h3>
         </div>
+
+        {/* Sidebar Menu Items */}
         <ul className="py-2">
           {menuData.map((menu, index) => (
             <li key={index}>
+              {/* Check if the menu has a sub-menu */}
               {menu.subMenu ? (
                 <>
                   <div

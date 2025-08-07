@@ -1,9 +1,11 @@
 import React, { useState } from "react";
-import Dashbord from "./Dashboard/Dashbord";
+import Dashboard from "./Dashboard/Dashboard";
 import Sidebar from "../Components/sidebar/Sidebar";
 import Navbar from "../Components/header/Navbar";
-import BonusDashbord from "./Bonus/BonusDashbord";
+import BonusDashboard from "./Bonus/BonusDashboard";
 import { Route, Routes } from "react-router";
+import NotFound from "./NotFound";
+
 
 const Main = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -22,11 +24,13 @@ const Main = () => {
       <div className="flex">
         <Sidebar isOpen={isSidebarOpen} />
         {/* Main content area */}
+
+
     <Routes >
-          <Route path="/" element={<Dashbord />} />
-          <Route path="/dashboard" element={<Dashbord />} />
-          <Route path="/bonuses" element={<BonusDashbord />} />
-                   
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/bonuses" element={<BonusDashboard />} />
+
               {/* <Route path="/profile" element={<Profile />} />
               <Route path="/accounts" element={<Accounts />} />             
               <Route path="/funds" element={<Funds />} />
@@ -34,6 +38,7 @@ const Main = () => {
               <Route path="/ib-menu" element={<IBMenu />} />
               <Route path="/support" element={<Support />} />
               <Route path="/tools" element={<Tools />} /> */}
+              <Route path="*" element={<NotFound />} />
         </Routes>
       
         

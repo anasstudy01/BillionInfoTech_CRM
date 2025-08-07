@@ -1,11 +1,11 @@
 import React from 'react'
 
-import DashbordMain from '../../Layout/DashbordMain'
+import DashboardMain from '../../Layout/DashboardMain'
 
-const Dashbord = () => {
+const Dashboard = () => {
   return (
     <div className="flex-1 bg-gray-50 min-h-screen max-w-full overflow-x-hidden">
-      <DashbordMain />
+      <DashboardMain />
    
 
       
@@ -13,4 +13,4 @@ const Dashbord = () => {
   )
 }
 
-export default Dashbord
+export default Dashboard

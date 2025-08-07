@@ -7,7 +7,7 @@ import DashboardNav from "../Components/main/DashboardNav";
 import MovingDisplay from "../Components/main/MovingDisplay";
 import PartnerLink from "../Components/main/PartnerLink";
 
-const DashbordMain = () => {
+const DashboardMain = () => {
   return (
     <>
       {/* Header Section */}
@@ -34,4 +34,4 @@ const DashbordMain = () => {
   );
 };
 
-export default DashbordMain;
+export default DashboardMain;
